@@ -21,7 +21,8 @@ public class ProductEntity {
 	    private String category;
 	    private String brand;
 	    private Double price;
-	    
+		private Integer quality;
+			    
 	    @Column(name="quality")
 	    private Integer quantity;
 	    private String description;
